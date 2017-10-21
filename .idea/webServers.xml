@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="067d6d5d-3d46-46ef-a677-14d60c767227" name="pcknot_deployment" url="http://pcknot.fit.vutbr.cz">
+        <fileTransfer host="pcknot.fit.vutbr.cz" port="22" rootFolder="/mnt/minerva1/nlp/homes/ifajcik/kaggle/dog_breed_classification" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

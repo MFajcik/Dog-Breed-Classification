@@ -1,1 +1,1 @@
-# Dog_Breed_Classification
+This repository contains various ML kernels used in Kaggle dog breed identification competition. The challenge is available at https://www.kaggle.com/c/dog-breed-identification. The dataset consists of ~10000 images for training and validation and ~10000 for testing. The best result so far comes for combined InceptionV3+Xception feature bottleneck combined with logistic regression classifier.

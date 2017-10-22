@@ -1,6 +1,0 @@
-VGG19 bottleneck (first try) + mlp ~ 13% <- this is wierd, need further investigation!
-
-VGG16 bottleneck avgpooling + logreg ~67%
-VGG16 bottleneck maxpooling + logreg ~66% 
-
-VGG19 bottleneck avgpooling + logreg ~69%

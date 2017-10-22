@@ -7,12 +7,12 @@ from mpl_toolkits.axes_grid1 import ImageGrid
 
 data_dir = r"C:\\Users\\mfajc\\Kaggle\\DogBreeds"
 #data_dir = r"/home/ifajcik/kaggle/dog_breed_classification/dogbreed_data"
-labels= prologue.init(data_dir)
-
+labels, _, _, _, _ = prologue.init(data_dir)
+NUM_CLASSES = 16
 # plot image figure via ImageGrid
 fig = plt.figure(1, figsize=(16, 16))
-j = int(np.sqrt(prologue.NUM_CLASSES))
-i = int(np.ceil(prologue.NUM_CLASSES / j))
+j = int(np.sqrt(NUM_CLASSES))
+i = int(np.ceil(NUM_CLASSES / j))
 grid = ImageGrid(fig, 111, nrows_ncols=(i, j), axes_pad=0.05)
 
 #Pretrained resnet

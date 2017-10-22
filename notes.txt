@@ -1,0 +1,12 @@
+VGG19 bottleneck (first try in exp_VGG.py) + mlp ~ 13% <- this is wierd, need further investigation!
+
+VGG16 bottleneck avgpooling + logreg ~67%
+VGG16 bottleneck maxpooling + logreg ~66%
+
+VGG19 bottleneck maxpooling + logreg ~67%
+VGG19 bottleneck avgpooling + logreg ~69%
+
+Xception bottleneck avgpooling + logreg ~89%
+InceptionV3  bottleneck avgpooling + logreg ~89%
+
+Xception+InceptionV3 bottleneck avgpooling + logreg ~91%

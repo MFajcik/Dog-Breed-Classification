@@ -62,7 +62,8 @@ base_model = VGG19(weights="imagenet", include_top=False, input_shape=(im_size, 
 
 # Add a new top layer
 x = base_model.output
-x = Dropout(0.5)(x)
+
+# x = Dropout(0.5)(x)
 x = Flatten()(x)
 x = Dense(4*num_class,activation='relu')(x)
 x = Dense(2*num_class,activation='relu')(x)
